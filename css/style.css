@@ -15,12 +15,14 @@
 
 .bannerdiv {
 	width: auto;
-	height: 850px;
+	height: auto;
 	overflow: hidden;
     position: relative;
     margin: 0 auto;
 }
 .bannerinnerdiv {
+    width: auto;
+	height: auto;
     display: -webkit-flex;
     display: -ms-flex; 
     display: flex; 

@@ -1,5 +1,6 @@
 @font-face {
   font-family: Zenith;
+  font-display: auto;
   src: url('fonts/Zenith.otf')
   format("opentype");
   }

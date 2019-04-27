@@ -28,25 +28,32 @@
 	text-align: center;
 	z-index: 10;
 	font-size: 20px;
+	color:white;
+	opacity: 0;
 }
 
-.fa-twitter {
+.team-icons .fa-twitter {
+	opacity: 1;
 	color:#00acee !important;
 }
-.fab:hover {
+.team-icons .fab:hover {
 	color:white !important;
 }
 
-.fa-facebook {
+.team-icons .fa-facebook {
+	opacity: 1;
 	color: #3b5998 !important;
 }
-.fa-linkedin {
+.team-icons .fa-linkedin {
+	opacity: 1;
 	color: #0077B5 !important;
 }
-.fa-youtube {
+.team-icons .fa-youtube {
+	opacity: 1;
 	color: #c4302b !important;
 }
-.fa-steam {
+.team-icons .fa-steam {
+	opacity: 1;
 	color: #1d1d1d !important;
 }
 .fa-instagram {
@@ -61,3 +68,121 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 .fab:active {
 	opacity: 0.7;
 }
+
+.overlay {
+	position: absolute;
+	background-color: red;
+	opacity: 1;
+	width: 320px;
+	height: 320px;
+	z-index: -2;
+}
+
+.team-icons {
+	background-color: rgba(255,255,255, 0.486);
+}
+
+.aboutus-banner {
+	
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	overflow: hidden;
+	
+}
+.aboutus-banner .images {
+	margin-top: -410px;
+	z-index: -1;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	
+}
+
+.aboutus-banner img {
+	z-index: -12;
+}
+
+.aboutus-banner .images-text {
+	color: rgb(220, 20, 60);
+	position: relative;
+	margin: auto;
+	width: 660px;
+	background-color: rgba(255,255,255, 0.486);
+	height:150px;
+	z-index: 10;
+	opacity: 0;
+}
+.aboutus-banner .images-logo {
+	margin: 60px auto auto auto;
+	color: white;
+	position: relative;
+	width: 680px;
+	background-color: rgba(255, 20, 60, 0.486);
+	height:150px;
+	z-index: 10;
+	opacity: 0;
+}
+.aboutus-banner h1 {
+	font-size: 110px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+canvas {
+  display:block;
+  margin:auto;
+}
+
+.aboutcontainer {
+	opacity: 0;
+	margin-top:550px;
+}
+
+.au-01 {
+	background-color: white;
+	height: 1000px;
+	padding: 50px;
+	overflow: hidden;
+}
+
+.au-01-text-1 {
+	margin-top: 40px;
+	margin-left:500px;
+	width:50%;
+	opacity: 0;
+}
+
+.au-01-title-1 {
+	margin-left:-100px;
+	opacity: 0;
+}
+
+.au-01-image-1 {
+	position: relative;
+	margin-top: -300px;
+	margin-left:-700px;
+	opacity: 0;
+}
+
+.au-01-text-2 {
+	margin-top: 40px;
+	margin-left:-100px;
+	width:50%;
+	opacity: 1;
+}
+
+.au-01-title-2 {
+	text-align: right;
+	margin-right:-100px;
+	opacity: 1;
+}
+
+.au-01-image-2 {
+	position: relative;
+	margin-top: -300px;
+	margin-left:-700px;
+	opacity: 1;
+}
+
+

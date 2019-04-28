@@ -1,0 +1,89 @@
+.gamebg {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+
+.videobg {
+
+    top:0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.game-logo {
+    margin-top:100px;
+    width:100%;
+    margin-bottom: 100px;
+    opacity: 0;
+}
+
+.game-content {
+    margin: 10px;
+    margin-left:-100px;
+    padding: 20px;
+    color:white;
+    background-color: rgba(2,2,2,0.7);
+}
+
+.game-content h3 {
+    margin-left:100px;
+    opacity: 0;
+}
+.game-content p {
+    width:100%;
+    margin-left:-100px;
+    opacity: 0;
+}
+
+.game-images {
+    width:90%;
+    margin: 10px;
+    padding: 30px;
+    color:white;
+    background-color: rgba(2,2,2,0.7);
+    margin-top:70px;
+    margin-bottom:0px;
+    opacity: 0;
+}
+
+.game-features {
+   
+    margin: 10px; 
+    margin-left:500px;
+    padding: 20px;
+    color:white;
+    background-color: rgba(2,2,2,0.7);
+    height: 300px;
+    opacity: 0;
+}
+
+.game-images img {
+    margin-left:15px;
+    opacity: 0;
+}
+
+.badge-lg {
+    margin-bottom:5px;
+    margin-left:20px;
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .sbadge {
+      opacity: 0;
+      margin-left:310px;
+  }
+
+  .genre {
+      opacity: 0;
+      margin-left:20px;
+      max-width: 80px;
+  }

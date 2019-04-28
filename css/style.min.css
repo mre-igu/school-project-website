@@ -137,11 +137,14 @@ canvas {
 .aboutcontainer {
 	opacity: 0;
 	margin-top:550px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
 }
 
 .au-01 {
 	background-color: white;
-	height: 1000px;
+	height: 1185px;
 	padding: 50px;
 	overflow: hidden;
 }
@@ -167,22 +170,160 @@ canvas {
 
 .au-01-text-2 {
 	margin-top: 40px;
-	margin-left:-100px;
+	margin-left:-45px;
 	width:50%;
-	opacity: 1;
+	opacity: 0;
 }
 
 .au-01-title-2 {
+	margin-top:40px;
 	text-align: right;
 	margin-right:-100px;
-	opacity: 1;
+	opacity: 0;
 }
 
 .au-01-image-2 {
 	position: relative;
-	margin-top: -300px;
-	margin-left:-700px;
-	opacity: 1;
+	margin-top: -370px;
+	margin-left:1020px;
+	opacity: 0;
+}
+
+.aboutus-banner-2 {
+	position: relative;
+	top: -150px;
+	height: 500px;
+	overflow: hidden;
+}
+
+.aboutus-banner-2 .image{
+	width:100%;
+	z-index: -10;
+}
+
+.au-02 {
+	margin-top: -650px;
+	background-color: white;
+	height: 1185px;
+	padding: 50px;
+	overflow: hidden;
+}
+
+.textblock .images-text-2 {
+	color: rgb(220, 20, 60);
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top:175px;
+	width: 660px;
+	background-color: rgba(255,255,255, 0.486);
+	height:150px;
+	z-index: 40;
+	opacity: 0;
+}
+.textblock .images-logo-2 {
+	color: white;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 660px;
+	top:325px;
+	background-color: rgba(255, 20, 60, 0.486);
+	height:150px;
+	z-index: 40;
+	opacity: 0;
+}
+
+.textblock {
+	position: relative;
+	margin-top:-300px;
+}
+
+.textblock h1 {
+	font-size: 110px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
+.mapouter{opacity:0;margin-left: -310px;position:relative;text-align:right;height:100%;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+
+.contactbox {
+	background-color: #222;
+	width:100%;
+	height: 99%;
+	z-index: -10;
+	margin-top:-310px;
+	opacity: 0;
+}
+
+.adressbox {
+	color:gray;
+	padding: 30px;
+}
+
+
+.wrap {
+}
+
+.row.vertical-divider {
+  overflow: hidden;
+}
+.row.vertical-divider > div[class^="col-"] {
+  padding-bottom: 100px;
+  margin-bottom: -100px;
+  border-right: 0.1px solid gray;
+}
+.row.vertical-divider div[class^="col-"]:first-child {
+  border-left: none;
+}
+.row.vertical-divider div[class^="col-"]:last-child {
+  border-right: none;
+}
+
+.cool-b4-form .btn {
+	border-radius: 0;
+}
+
+.cool-b4-form .form-group {
+	position: relative;
+	padding-top: 20px;
+	margin-bottom: 0;
+  /* If there's only 1 input make it full height */ }
+  .cool-b4-form .form-group:first-child:last-child {
+    height: 100%; }
+    .cool-b4-form .form-group:first-child:last-child .form-control {
+      height: 100%; }
+  .cool-b4-form .form-group textarea {
+		color: white;
+		height: 200px;
+    resize: none; }
+  .cool-b4-form .form-group .input-highlight {
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #e03443;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    transition: width 0.4s ease; }
+  .cool-b4-form .form-group label {
+		position: absolute;
+		color: white;
+    left: 10px;
+    top: 25px;
+    transition: all 0.4s ease; }
+  .cool-b4-form .form-group .form-control {
+    border-radius: 0;
+		border-width: 0 0 2px 0;
+		background-color: #313131;
+	}
+    .cool-b4-form .form-group .form-control:focus, .cool-b4-form .form-group .form-control.hasValue {
+      box-shadow: none;
+      border-color: #313131; }
+      .cool-b4-form .form-group .form-control:focus ~ .input-highlight, .cool-b4-form .form-group .form-control.hasValue ~ .input-highlight {
+        width: 100%; }
+      .cool-b4-form .form-group .form-control:focus ~ label, .cool-b4-form .form-group .form-control.hasValue ~ label {
+        transform: scale(0.7);
+        top: 0;
+        left: 0; }

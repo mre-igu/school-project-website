@@ -31,6 +31,7 @@
     padding: 20px;
     color:white;
     background-color: rgba(2,2,2,0.7);
+    opacity: 0;
 }
 
 .game-content h3 {
